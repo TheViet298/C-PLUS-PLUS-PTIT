@@ -9,12 +9,12 @@ int main() {
     while (t--) {
         string s;
         cin >> s;
-        int a[1000] = {0}; // kh?i t?o m?ng d·nh d?u
+        int a[1000] = {0}; // kh?i t?o m?ng d√°nh d?u
         for (int i = 0; i < s.length(); i++) {
-            a[s[i]]++;// d·nh d?u k˝ t? d„ xu?t hi?n
+            a[s[i]]++;// d√°nh d?u k√Ω t? d√£ xu?t hi?n
         }
         for (int i = 0; i < s.length(); i++) {
-            if ( a[s[i]] == 1) { // n?u k˝ t? chua xu?t hi?n
+            if ( a[s[i]] == 1) { // n?u k√Ω t? chua xu?t hi?n
             	cout << s[i];
             }
         }
